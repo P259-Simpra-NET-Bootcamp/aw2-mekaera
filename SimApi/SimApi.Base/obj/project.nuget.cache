@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gye8K6dwFiAvPdlkaMYpG4ZrAVFf+x0sVn/Zzjw+ihdsvVq1fAY7Dxe7GK3pFQRJTINzzjXAu/dw0U9QWc40vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\SimApi.Base.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mekae\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

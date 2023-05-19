@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi\\SimApi.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\SimApi.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\SimApi.Base.csproj",
+        "projectName": "SimApi.Base",
+        "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\SimApi.Base.csproj",
+        "packagesPath": "C:\\Users\\mekae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mekae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj",
+        "projectName": "SimApi.Data",
+        "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj",
+        "packagesPath": "C:\\Users\\mekae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mekae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\SimApi.Base.csproj": {
+                "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Base\\SimApi.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Schema\\SimApi.Schema.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Schema\\SimApi.Schema.csproj",
+        "projectName": "SimApi.Schema",
+        "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Schema\\SimApi.Schema.csproj",
+        "packagesPath": "C:\\Users\\mekae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Schema\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mekae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj": {
+                "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi\\SimApi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi\\SimApi.Service.csproj",
+        "projectName": "SimApi.Service",
+        "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi\\SimApi.Service.csproj",
+        "packagesPath": "C:\\Users\\mekae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mekae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj": {
+                "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Data\\SimApi.Data.csproj"
+              },
+              "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Schema\\SimApi.Schema.csproj": {
+                "projectPath": "C:\\Users\\mekae\\OneDrive\\Masaüstü\\pk-sim-main\\SimApi\\SimApi.Schema\\SimApi.Schema.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
